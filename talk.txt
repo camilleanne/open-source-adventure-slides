@@ -1,0 +1,39 @@
+Github talk on OS:
+
+I’m on the engineering team at Mapbox — we create open source software and apis that make it easy for developers to design custom maps for the web or mobile.
+
+Most, if not all, of the work I do is released open source. That also means that the libraries and tools that we didn’t write but incorporate into Mapbox products are also open source. Sometimes I need a specific feature or a bug fixed and then I have to create a pull request on other open source projects (or just open a ticket if the project is over my head or written in a language I’m not familiar with). I remember my first external PR, it was one line, maybe 40 character change. It made me sweat like crazy. It’s nervewracking because what if the maintainer says no? Or takes a long time to get to it? Or a troll finds it?
+
+But this was a silly fear. I had written good comments in my pull request and referenced relevant past issues — the PR was merged within a week.
+
+There are much greater things to fear, such that’s having too much power and not enough knowledge.
+
+I help organize an organization called Maptime. Maptime is an open learning environment, like tonight, but for mapping tools and technologies, especially web maps. We (the Maptime organizers and community members) produce tutorials, demos, websites, etc that we maintain in public repos on Github.
+
+Once, about four months ago, the Maptime Organization was deleted.
+
+I got an email from Github, and cc’d were the 49 other people with administrative privileges. Oh hey guys, the account’s been deleted.
+
+huh
+double huh
+fuck
+
+fix it! email the githubbers!
+
+how did this happen?
+
+It happened because there were 49 administrators/owners with ULTIMATE POWER. Why? Excellent question. Mostly it was in the name of inclusivity and absolute naiveté regarding how big Maptime would get, and ignorance about Github. We started it less than a year and a half ago and it was three people sitting hanging out at Stamen after work. Now there’s a score of chapters and over 1,500 of members (at least that we can count on meetup).
+
+We had never heard of Github flow, I didn’t understand what a pull request was, and we were terrified of the command line. 
+
+When it was just a couple of us working on a project together, notably a wiki and a project called the ABC’s of Cartography, it made sense that anyone would be able to create a repo, push a project to it, and we could all collaborate easily. So that’s why there was so much administrative power floating around. After a year we lost track of how many people we had added to the organization, never reconsidered the structure, and didn’t really think in terms of formal organization or maintainers. Until the Delete.
+
+How did we recover? We embraced the pull request. Where before we were operating on a Wikipedia-like model (anyone can edit, edits go live immediately, but we’re all keeping an eye out for fishy stuff and there are a couple of people who we acknowledge as experts), the Maptime organization on github is now more like other open source projects you might encounter.
+
+Now there is a core owners team, and teams of local chapter organizers. The owners are trusted not to delete the repo, and are (now) github-savvy. Any changes that someone wants to make to a repo opens a pull request with their changes, we get to look at it, chat about it. As projects scale, it’s important to have gatekeepers who can make the call that this change is ready, we agree. But in the end, it’s the community members who call the shots on where things go and what they look like.
+
+
+So what’s more scary than a pull request? Not knowing you need to make one. We love pull requests — it means someones paying attention, looking at the repos, thinking about it, and even if we don’t consense on the change, it doesn’t reflect on the person who opened the pull request. 
+
+
+// In my work with open source I can identify at least four different flavors of open source project, with regard to contributing: 1) Company-independent projects like Ruby on Rails, SciPy, Homebrew with hundreds or thousands of contributors, but a core maintainer team, 2) Projects where contributors tend to be employed by one company, like Mapbox, 3) Small single author libraries or projects, 4) Chaos, aka, Maptime before the Great Delete.
